@@ -1,0 +1,47 @@
+2017-2018:
+  DEMO_J:
+    params:
+      SEQN: id
+      RIAGENDR: sex
+      RIDAGEYR: age
+      RIDRETH3: race
+    values:
+      sex:
+        1: Male
+        2: Female
+      race:
+        1: Mexican American
+        2: Other Hispanic
+        3: Non-Hispanic White
+        4: Non-Hispanic Black
+        6: Non-Hispanic Asian
+        7: Other Race - Including Multi-Racial
+  BIOPRO_J:
+    params:
+      SEQN: id
+      LBXSATSI: alt # аланинаминотрансфераза
+      LBXSASSI: ast
+      LBDSCRSI: creatinine
+      LBDSTBSI: bilirubin
+      LBDSUASI: uric_acid
+    values:
+  CBC_J:
+    params:
+      SEQN: id
+      LBXHCT: hematocrit
+      LBDMONO: monocyte_num
+      LBXMOPCT: monocyte_perc
+      LBDLYMNO: lymphocyte_num
+      LBXLYPCT: lymphocyte_perc
+      LBDEONO: eosinophils_num
+      LBXEOPCT: eosinophils_perc
+      LBDBANO: basophils_num
+      LBXBAPCT: basophils_perc
+      LBDNENO: segmented_num
+      LBXNEPCT: segmented_perc
+      LBXHGB: hemoglobin # (g/dL)
+      LBXRBCSI: red_cell_cnt #  (million cells/uL)
+      LBXRDW: rdw
+      LBXMC: mean_hemoglobin_conc # (g/dL)
+      LBXMCHSI: mean_hemoglobin_pg
+    values:
